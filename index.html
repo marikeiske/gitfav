@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitFav</title>
+
+
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>{⭐}GitFav</h1>
+            <div class="search">
+                <label class="sr-only">Digite qual usuário você quer favoritar</label>
+                <input id="input-search" placeholder="Digite qual usuário você quer favoritar">
+         <button>&star;</button>   
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuário</th>
+                    <th>Repositórios</th>
+                    <th>Seguidores</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/marikeiske.png" alt="Minha Imagem">
+                        <a href="https://github.com/marikeiske" target="_blank">
+                        <p>Mariana Keiske</p>
+                        <span>/Mariana Keiske</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        76
+                    </td>
+                    <td class="followers">
+                        890
+                    </td>
+                    <td>
+                        <button class="remove">REMOVER</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/diego3g.png" alt="Imagem de diego">
+                        <a href="https://github.com/diego3g" target="_blank">
+                        <p>Diego</p>
+                        <span>/Diego Augusto</span>
+                    </a>
+                    </td>
+                    <td class="repositories">
+                        120
+                    </td>
+                    <td class="followers">
+                        1000
+                    </td>
+                    <td>
+                        <button class="remove">REMOVER</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/MayBrito.png" alt="Imagem de diego">
+                        <a href="https://github.com/MayBrito" target="_blank">
+                        <p>MayBrito</p>
+                        <span>/MayBrito</span>
+                    </a>
+                    </td>
+                    <td class="repositories">
+                        12
+                    </td>
+                    <td class="followers">
+                        744
+                    </td>
+                    <td>
+                        <button class="remove">REMOVER</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+</body>
+</html>
